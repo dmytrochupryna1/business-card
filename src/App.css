@@ -1,0 +1,148 @@
+body {
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+  font: 16px Arial, sans-serif;
+  /* width: min-content; */
+
+}
+
+.info {
+  /* border: 1px solid #000; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #1f1f1f;
+  color: #fff;
+  /* padding-top: */
+  /* width: 80%; */
+}
+
+.profile-pic {
+  width: 100%;
+}
+
+.info--details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  padding-top: 20px;
+}
+
+.info--details h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+.info--details p {
+  margin: 10px 0px;
+  font-size: 1.5em;
+}
+
+.info--social {
+  display: flex;
+}
+
+.button {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000;
+  padding: 5px 15px;
+  margin: 0px 10px 20px 10px;
+  border: 2px solid #5110ac;
+  border-radius: 25px;
+  min-width: 114px;
+  background: rgb(207, 205, 205);
+  color: #000;
+  font-weight: 500;
+}
+
+.button:hover {
+  background-color: #bbcdbb;
+  /* color: #fff; */
+  cursor: pointer;
+
+}
+
+.social-icon {
+  max-width: 55px;
+  max-height: 30px;
+  margin-right: 10px;
+}
+
+.about {
+  /* border: 1px solid #000; */
+  background: #1f1f1f;
+  color: #fff;
+  padding: 10px 30px 20px 30px;
+}
+
+.about > p {
+  color: #bbcdbb;
+  text-align: justify;
+
+}
+
+.interests {
+  /* border: 1px solid #000; */
+  background: #1f1f1f;
+  color: #fff;
+  padding: 30px;
+  padding: 20px 30px 20px 30px;
+
+}
+
+.interests > p {
+  color: #bbcdbb;
+  text-align: justify;
+}
+
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
